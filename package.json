@@ -1,0 +1,27 @@
+{
+  "name": "english-permutation",
+  "version": "1.0.0",
+  "description": "Permutates strings and returns only valid English words",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePlatinum/english-permutation.git"
+  },
+  "keywords": [
+    "permutate",
+    "rearrange",
+    "words",
+    "permutation",
+    "letters",
+    "english"
+  ],
+  "author": "Emmanuel A. Adesina",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ThePlatinum/english-permutation/issues"
+  },
+  "homepage": "https://github.com/ThePlatinum/english-permutation#readme"
+}
