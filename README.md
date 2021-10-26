@@ -8,7 +8,7 @@ $ npm install english-permutation
 
 ### How to use
 ```
-const permutate = require('./english-permutation')
+const permutate = require('english-permutation')
 console.log(permutate.permute('ABS')) 
 ```
 result will be an array:
