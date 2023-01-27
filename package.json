@@ -1,6 +1,6 @@
 {
   "name": "english-permutation",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Permutates strings and returns only valid English words",
   "main": "index.js",
   "scripts": {
