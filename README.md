@@ -11,21 +11,24 @@ yarn add english-permutation
 ```
 or
 ```bash
-$ npm install english-permutation
+npm install english-permutation
 ```
 
 ## How to use
 ```bash
-const permutate = require('english-permutation')
-console.log(permutate('ABS')) 
+import permutate from 'english-permutation'
+
+console.log(await permutate('ABS'));
 
 # result will be a promise that resolves to an array:
 [ 'ABS', 'BAS', 'SAB' ]
 ```
 An empty search will return `null` as a string
 
-## Contributions
+## Breaking Change
+The package now produces a promise that resolves to the result. You should use it as such in you code to await the result.
 
+## Contributions
 Contributions are **welcome** via Pull Requests on [Github](https://github.com/ThePlatinum/english-permutation).
 - Please document any change you made as neccesary in the [README.md](README.md).
 - Pleas make only one pull request per feature/fix.
@@ -33,18 +36,17 @@ Please check the [Possible Upcoming improvements](#possible)
 
 
 ## Issues
-
 Please report any issue you encounter in using the package through the issues tab [Github Issues](https://github.com/ThePlatinum/english-permutation/issues)
 
 
 <div id='possible'></div>
-
 
 ## Possible Upcoming improvements:
 - Implement a limit on the number of permutations generated to prevent the algorithm from generating too many permutations and causing performance issues.
 - Optimize the permutation algorithm.
 - Use a more efficient data structure to store the permutations, maybe hash set instead of an array, as it allows for faster insertion, retrieval, and membership testing.
 - Optimize the filter function by using a more efficient algorithm to match the regular expression, such as using a trie data structure to match the regular expression.
+- Maybe Add words meaning (Make into a web API)
 
 
 \

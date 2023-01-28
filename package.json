@@ -1,6 +1,6 @@
 {
   "name": "english-permutation",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Performs a permutation of the input string and returns only valid English words that can be formed from the letters",
   "main": "index.js",
   "type": "module",
